@@ -1,0 +1,109 @@
+.dsc07259-01-1-icon {
+  position: absolute;
+  top: 34px;
+  left: 384px;
+  width: 1400px;
+  height: 872px;
+  object-fit: cover;
+}
+.photograph {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  background-color: var(--color-dimgray);
+  width: 1920px;
+  height: 940px;
+  overflow: hidden;
+}
+.lets-dive-in {
+  position: absolute;
+  top: 258px;
+  left: 918px;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  width: 757px;
+  height: 234px;
+}
+.portfolio1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 1px;
+  left: 1362px;
+  width: 196px;
+  height: 41px;
+}
+.avikalp-fuley1,
+.contact2,
+.portfolio1 {
+  position: absolute;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.15em;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.contact2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 1px;
+  left: 1598px;
+  width: 196px;
+  height: 41px;
+}
+.avikalp-fuley1 {
+  top: 9px;
+  left: 108px;
+  width: 343px;
+  height: 29px;
+}
+.avikalp-fuley-group,
+.group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76px;
+  height: 76px;
+}
+.avikalp-fuley-group {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 451px;
+}
+.landing-page1,
+.portfolio-group {
+  position: absolute;
+  top: 44px;
+  left: 106px;
+  width: 1794px;
+  height: 76px;
+}
+.landing-page1 {
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0)
+    ),
+    #7e6f6f;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+.landing-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 144px;
+  color: var(--color-black);
+  font-family: var(--font-wire-one);
+}

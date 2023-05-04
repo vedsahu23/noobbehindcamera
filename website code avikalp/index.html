@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wire One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact">
+      <nav class="portfolio-parent">
+        <button class="portfolio" id="portfolio">portfolio</button>
+        <button class="contact1" disabled>contact</button>
+        <button class="avikalp-fuley-parent" id="groupButton">
+          <div class="avikalp-fuley">AVIKALP FULEY</div>
+          <img class="group-child" alt="" src="./public/group-2.svg" />
+        </button>
+      </nav>
+      <img class="contact-child" alt="" src="./public/ellipse-7.svg" />
+
+      <img class="contact-item" alt="" src="./public/ellipse-8.svg" />
+
+      <img class="contact-inner" alt="" src="./public/ellipse-9.svg" />
+
+      <button class="rectangle-parent" id="groupButton1">
+        <div class="group-item"></div>
+        <div class="email-avikalpfuley1172gmail">
+          <p class="email">email</p>
+          <p class="avikalpfuley1172gmailcom">avikalpfuley.1172@gmail.com</p>
+        </div>
+      </button>
+      <button class="rectangle-group" id="groupButton2">
+        <div class="group-item"></div>
+        <div class="instagram-avikalpfuley">
+          <p class="email">instagram</p>
+          <p class="avikalpfuley1172gmailcom">avikalp.fuley</p>
+        </div>
+      </button>
+      <button class="rectangle-container" disabled>
+        <div class="group-item"></div>
+        <div class="instagram-avikalpfuley">
+          <p class="email">phone number</p>
+          <p class="avikalpfuley1172gmailcom">9146097086</p>
+        </div>
+      </button>
+    </div>
+
+    <script>
+      var portfolio = document.getElementById("portfolio");
+      if (portfolio) {
+        portfolio.addEventListener("click", function (e) {
+          window.location.href = "./portfolio.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./landing-page.html";
+        });
+      }
+      
+      const groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function () {
+          window.location.href = "mailto:avikalpfuley.1172@gmail.com";
+        });
+      }
+      
+      var groupButton2 = document.getElementById("groupButton2");
+      if (groupButton2) {
+        groupButton2.addEventListener("click", function () {
+          window.open("https://www.instagram.com/avikalp.fuley/");
+        });
+      }
+      </script>
+  </body>
+</html>

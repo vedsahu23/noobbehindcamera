@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-wire-one: "Wire One";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-dimgray: #7e6f6f;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-white: #fff;
+}
